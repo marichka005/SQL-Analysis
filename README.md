@@ -16,5 +16,7 @@ Poniżej znajdują się rozwiązania SQL odpowiadające na powyższe pytania:
    FROM ecommerce_sales_analytics_5000
    GROUP BY payment_method;
 
-3) SECECT customer_id FROM  ecommerce_sales_analytics_5000
-   ORDER BY revenue DESC LIMIT 5;
+3) SECECT customer_id, SUM(revenue) AS total
+   FROM  ecommerce_sales_analytics_5000
+   GROUP BY customer_id
+   ORDER BY total DESC LIMIT 5;
