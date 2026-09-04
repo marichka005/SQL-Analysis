@@ -5,7 +5,7 @@ Czynności i cele analizy:
 1) Sprawdzenie, które kategorie produktów przynoszą największy przychód w danym regionie.
 2) Identyfikacja najpopularniejszych metod płatności.
 3) Wyznaczenie TOP 5 klientów z największymi wydatkami.
-Poniżej znajdują się zapytania SQL odpowiadające na powyższe pytania:
+Poniżej znajdują się rozwiązania SQL odpowiadające na powyższe pytania:
 
 1) SELECT region, SUM(revenue) AS total_revenue
    FROM ecommerce_sales_analytics_5000
