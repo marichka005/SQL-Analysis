@@ -17,4 +17,4 @@ Poniżej znajdują się zapytania SQL odpowiadające na powyższe pytania:
    GROUP BY payment_method;
 
 3) SECECT customer_id FROM  ecommerce_sales_analytics_5000
-   ORDER BY revenue DESC LIMIT 5;я
+   ORDER BY revenue DESC LIMIT 5;
